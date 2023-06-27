@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #74083e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navLogo {
+    height: 100%;
+}
+
+.navbar .navLogo img {
+    width: 70px;
+    margin-top: 5px;
+}
+
+.navbar .navbarLinks {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.navbar .navbarLinks a {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar .booking {
+    display: flex;
+    align-items: center;
+}
+
+#bookingButton {
+    color: #74083e;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f1dee9;
+    width: 1.5in;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #f1dee9;
+    transition: 250ms ease-in-out;
+}
+#bookingButton:hover{
+    transform: scale(1.05);
+    color: #74083e;
+    background-color: aliceblue;
+    border: none;
+}
+
